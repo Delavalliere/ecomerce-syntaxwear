@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,37 +8,72 @@
     <link rel="stylesheet" href="./css/variables.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/components/header.css">
+
     <title>SyntaxWear</title>
+
 </head>
 
 <body>
     <!-- Header: logo + navegação principal -->
-    <header class="site-header" role="banner">
-        <div class="container">
-            <a href="/" class="logo" aria-label="SyntaxWear - Início">SyntaxWear</a>
-            <nav class="main-nav" role="navigation" aria-label="Navegação principal">
-                <!-- links de navegação (placeholder) -->
-            </nav>
-        </div>
+    <header class="header">
+        <h1 class="logo">
+
+            <a href="/" title="SyntaxWear - Tênis e Sneakers Online">
+                <img src="./assets/images/logo/logo.svg" alt="SyntaxWear - Tênis e Sneakers Online">
+            </a>
+
+        </h1>
+
+        <nav class="nav-center" aria-label="Categorias Principais">
+            <ul>
+                <li><a href="#">Masculino</a></li>
+                <li><a href="#">Feminino</a></li>
+                <li><a href="#">Outlet</a></li>
+            </ul>
+        </nav>
+
+        <nav class="nav-right" aria-label="Links e Funcionalidades">
+            <ul>
+                <li><a href="#">Nossas lojas</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li>
+                    <a href="#" class="icon-link" aria-label="Minha conta">
+                        <img src="assets/images/icons/user.svg" alt="" class="icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icon-link" aria-label="Ajuda">
+                        <img src="assets/images/icons/help.svg" alt="" class="icon">
+                    </a>
+                </li>
+                <li>
+                    <a href="#" class="icon-link" aria-label="Carrinho">
+                        <img src="assets/images/icons/bag.svg" alt="" class="icon">
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
     </header>
 
     <main role="main">
         <!-- Seção Hero -->
-    <section class="hero" aria-label="Destaque principal">
+        <section class="hero" aria-label="Destaque principal">
             <div class="container">
                 <!-- Conteúdo do hero (placeholder) -->
             </div>
         </section>
-        <h1>Título da Página</h1>
+     
         <!-- Seção de Categorias de Produtos -->
-    <section class="categories" aria-label="Categorias de produtos">
+        <section class="categories" aria-label="Categorias de produtos">
             <div class="container">
                 <!-- Lista de categorias (placeholder) -->
             </div>
         </section>
 
         <!-- Grid com Produtos em Destaque -->
-    <section class="featured-products" aria-label="Produtos em destaque">
+        <section class="featured-products" aria-label="Produtos em destaque">
             <div class="container">
                 <div class="grid">
                     <!-- Cards de produtos (placeholder) -->
@@ -55,9 +91,10 @@
             <nav class="footer-nav" aria-label="Links do rodapé">
                 <!-- Links do rodapé (placeholder) -->
             </nav>
-            <small class="copyright">&copy; <span class="ano"></span> SyntaxWear</small>
+            <!-- <small class="copyright">&copy; <span class="ano"></span> SyntaxWear</small> -->
         </div>
     </footer>
 
 </body>
+
 </html>

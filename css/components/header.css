@@ -1,0 +1,18 @@
+.header {
+    background-color: blueviolet;
+    
+    /* Para centralizar o conteúdo na tela */
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translate(-50%);
+    width: calc(100% - 40px);
+    border-radius: 16px;
+    /* traz o elemento para frente no eixo z */
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 1.75rem;
+    
+}
