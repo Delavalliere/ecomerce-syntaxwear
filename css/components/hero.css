@@ -2,7 +2,7 @@
 
     background: url(../../assets/images/banners/hero.jpg) no-repeat center;
     background-size: cover;
-    height: 500px;
+    height: 550px;
     position: relative;
 
 }
@@ -12,52 +12,50 @@
     width: 100%;
     height: 100%;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: flex-end;
     padding: 0 6rem;    
 
 }
 
+
+.hero-content{
+    
+    color: #ffffff;
+    max-width: 360px;
+    text-align: center;     
+    
+}
 .hero-buttons{
-
-
 
     display: flex;
     gap: 16px;
 
 }
 
-.hero-content{
+.hero-content .hero-title {
 
-    color: #ffffff;
-    max-width: 360px;
-    text-align: center;     
-
-}
-
-.hero-content .hero-tittle {
-
-    font-size: 1.875rem ;
+    font-size: 1.75rem;
     margin-bottom: 40px;
-    font-weight: 400;
+    font-weight: 500;
     line-height: 36px;
     letter-spacing: 3px;
     
 
 }
 
-.hero-content .hero-subtittle {
+.hero-content .hero-subtitle {
 
-    font-size: 1.25rem;
+    font-size: 1.30rem;
     font-weight: 400;
-
+    
 }
 
 .btn {
 
     font-size: 1.25rem;
-    height: 48px;
     width: 161px;
+    height: 48px;
     border-radius: 25px;
     color: #ffffff;
     font-weight: 400;
