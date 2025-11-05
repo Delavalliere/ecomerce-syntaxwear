@@ -2,7 +2,7 @@
  
     /* Para centralizar o conteúdo na tela */
     position: fixed;
-    top: 20px;
+    top: 8px;
     left: 50%;
     transform: translate(-50%);
     width: calc(100% - 40px);
@@ -12,8 +12,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 20px;
     background-color: #ffffff;
+    padding: 0.255rem 1.25rem;
 
 }
 
@@ -34,6 +34,7 @@ height: 48px;
 .nav-right a {
 
 font-size: 1.25rem;
+color: #333333;
 
 }
 
