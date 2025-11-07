@@ -2,10 +2,10 @@
  
     /* Para centralizar o conteúdo na tela */
     position: fixed;
-    top: 8px;
+    top: 55px;
     left: 50%;
     transform: translate(-50%);
-    width: calc(100% - 40px);
+    width: calc(96% - 40px);
     border-radius: 16px;
     /* traz o elemento para frente no eixo z */
     z-index: 999;
