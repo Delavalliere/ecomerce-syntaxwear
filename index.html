@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="./css/components/categories.css">
     <link rel="stylesheet" href="./css/components/product-grid.css">
     <link rel="stylesheet" href="./css/components/footer.css">
-    
+
 
     <title>SyntaxWear</title>
 
@@ -30,34 +30,43 @@
 
         </h1>
 
-        <nav class="nav-center" aria-label="Categorias Principais">
-            <ul>
-                <li><a href="#">Masculino</a></li>
-                <li><a href="#">Feminino</a></li>
-                <li><a href="#">Outlet</a></li>
-            </ul>
-        </nav>
+        <input type="checkbox" class="menu-toggle" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon">
+            <img src="./assets/images/icons/hamburguer.svg" alt="menu mobile">
+        </label>
 
-        <nav class="nav-right" aria-label="Links e Funcionalidades">
-            <ul>
-                <li><a href="#">Nossas lojas</a></li>
-                <li><a href="#">Sobre</a></li>
-                <li>
-                    <a href="#" class="icon-link" aria-label="Minha conta">
-                        <img src="assets/images/icons/user.svg" alt="" class="icon">
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="icon-link" aria-label="Ajuda">
-                        <img src="assets/images/icons/help.svg" alt="" class="icon">
-                    </a>
-                </li>
-                <li>
-                    <a href="#" class="icon-link" aria-label="Carrinho">
-                        <img src="assets/images/icons/bag.svg" alt="" class="icon">
-                    </a>
-                </li>
-            </ul>
+
+        <nav class="nav-container">
+            <nav class="nav-center" aria-label="Categorias Principais">
+                <ul>
+                    <li><a href="#">Masculino</a></li>
+                    <li><a href="#">Feminino</a></li>
+                    <li><a href="#">Outlet</a></li>
+                </ul>
+            </nav>
+
+            <nav class="nav-right" aria-label="Links e Funcionalidades">
+                <ul>
+                    <li><a href="#">Nossas lojas</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li>
+                        <a href="#" class="icon-link" aria-label="Minha conta">
+                            <img src="assets/images/icons/user.svg" alt="" class="icon">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon-link" aria-label="Ajuda">
+                            <img src="assets/images/icons/help.svg" alt="" class="icon">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="icon-link" aria-label="Carrinho">
+                            <img src="assets/images/icons/bag.svg" alt="" class="icon">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
         </nav>
 
     </header>
@@ -125,28 +134,28 @@
 
         </section>
         <!-- Grid com Produtos em Destaque -->
-            <div class="grid-section">
-                <div class="card top1">
-                    <div class="top1-content">
-                        <h3 class="card-title">Kryton One</h3>
-                        <p class="card-subtitle">Estilo Urbano com atitude</p>
-                        <div class="cta-group">
+        <div class="grid-section">
+            <div class="card top1">
+                <div class="top1-content">
+                    <h3 class="card-title">Kryton One</h3>
+                    <p class="card-subtitle">Estilo Urbano com atitude</p>
+                    <div class="cta-group">
 
-                            <a href="#" class="btn btn-outline">Feminino</a>
-                            <a href="#" class="btn btn-outline">Masculino</a>
+                        <a href="#" class="btn btn-outline">Feminino</a>
+                        <a href="#" class="btn btn-outline">Masculino</a>
 
-                        </div>
                     </div>
                 </div>
-
-                <div class="card top2" aria-label="Foto tênis com as cores verde e roxo"></div>
-                <div class="card midR"></div>
-                <div class="card midL"></div>
-                <div class="card botR"></div>
-                <div class="card botL"></div>
-
-
             </div>
+
+            <div class="card top2" aria-label="Foto tênis com as cores verde e roxo"></div>
+            <div class="card midR"></div>
+            <div class="card midL"></div>
+            <div class="card botR"></div>
+            <div class="card botL"></div>
+
+
+        </div>
         </section>
 
     </main>
@@ -157,13 +166,14 @@
             <div class="footer-right" aria-label="Newsletter e redes sociais">
 
                 <div>
-                <p class="footer-title">Inscreva-se em nosso e-mail</p>
-                <form class="newsletter-form" action="#" method="post" novalidate>
-                    <label for="newsletter-email"></label>
-                    <div>
-                        <input id="newsletter-email" name="email" type="email" placeholder="email@email.com" required>
-                    </div>
-                </form>
+                    <p class="footer-title">Inscreva-se em nosso e-mail</p>
+                    <form class="newsletter-form" action="#" method="post" novalidate>
+                        <label for="newsletter-email"></label>
+                        <div>
+                            <input id="newsletter-email" name="email" type="email" placeholder="email@email.com"
+                                required>
+                        </div>
+                    </form>
                 </div>
 
                 <div class="social" aria-label="Redes sociais">
@@ -172,11 +182,15 @@
 
                     <ul class="footer-social" aria-label="Redes Sociais">
 
-                        <li><a href="#" aria-label="Instagram"><img src="./assets/images/icons/insta.png" alt="" class="icon"></a></li>
-                        <li><a href="#" aria-label="WhatsApp"><img src="./assets/images/icons/whats.png" alt="" class="icon"></a></li>
-                        <li><a href="#" aria-label="TikTok"><img src="./assets/images/icons/tik.png" alt="" class="icon"></a></li>
-                        <li><a href="#" aria-label="Facebook"><img src="./assets/images/icons/face.png" alt="" class="icon"></a></li>
-                    
+                        <li><a href="#" aria-label="Instagram"><img src="./assets/images/icons/insta.png" alt=""
+                                    class="icon"></a></li>
+                        <li><a href="#" aria-label="WhatsApp"><img src="./assets/images/icons/whats.png" alt=""
+                                    class="icon"></a></li>
+                        <li><a href="#" aria-label="TikTok"><img src="./assets/images/icons/tik.png" alt=""
+                                    class="icon"></a></li>
+                        <li><a href="#" aria-label="Facebook"><img src="./assets/images/icons/face.png" alt=""
+                                    class="icon"></a></li>
+
                     </ul>
                 </div>
             </div>
