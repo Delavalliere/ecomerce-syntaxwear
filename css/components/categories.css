@@ -1,14 +1,13 @@
 
 
 .category-section {
-
-
-    padding-bottom: 40px;
+    padding-top:2.5rem;
+    padding-bottom: 2.5rem;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 1.875rem;
 
 }   
 
@@ -16,9 +15,9 @@
 .category-card{
 
     position: relative;
-    width: 317px;
-    height: 500px;
-    border-radius: 15px;
+    width: 19.813rem;
+    height: 31.25rem;
+    border-radius: 0.938rem;
     overflow: hidden;
     
 }

@@ -1,0 +1,102 @@
+.card {
+
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+
+}
+
+.top1 {
+
+    grid-area: top1;
+    background-image: url(../../assets/images/products/card.jpg);
+
+}
+
+.top2 {
+
+    grid-area: top2;
+    background-image: url(../../assets/images/products/tênis\ roxo\ e\ verde.jpg);
+
+}
+
+.midL {
+
+    grid-area: midL;
+    background-image: url(../../assets/images/products/modelo-feminina.jpg);
+
+}
+
+.midR {
+
+    grid-area: midR;
+    background-image: url(../../assets/images/products/moderno-grid.jpg);
+}
+
+.botR {
+
+    grid-area: botR;
+    background-image: url(../../assets/images/products/futurista-grid.jpg)
+}
+
+.botL {
+
+    grid-area: botL;
+    background-image: url(../../assets/images/products/ztênis\ preto\ azul.jpg);
+
+}
+
+.grid-section {
+
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 300px);
+    grid-template-areas:
+
+        "top1 top1 top2 top2"
+        "top1 top1 midL midR"
+        "botL botL midL botR";
+
+    gap: 20PX;
+
+}
+
+.top1-content {
+
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: inherit;
+    text-align: center;
+
+
+}
+
+.card-title {
+
+    color: #ededed;
+    font-size: 1.25rem;
+    font-weight: 400;
+    margin-bottom: 10px;
+
+}
+
+.card-subtitle {
+
+    color: #ededed;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 20px;
+
+}
+
+.cta-group {
+
+    display: flex;
+    gap: 10px   
+}
