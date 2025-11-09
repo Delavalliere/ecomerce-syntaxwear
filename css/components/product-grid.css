@@ -9,9 +9,9 @@
 
 }
 
-.top1 {
+.highlight {
 
-    grid-area: top1;
+    grid-area: highlight;
     background-image: url(../../assets/images/products/card.jpg);
 
 }
@@ -57,15 +57,15 @@
     grid-template-rows: repeat(3, 300px);
     grid-template-areas:
 
-        "top1 top1 top2 top2"
-        "top1 top1 midL midR"
+        "highlight highlight top2 top2"
+        "highlight highlight midL midR"
         "botL botL midL botR";
 
     gap: 20PX;
 
 }
 
-.top1-content {
+.highlight-content {
 
     position: absolute;
     top: 45%;
@@ -98,5 +98,41 @@
 .cta-group {
 
     display: flex;
-    gap: 10px   
+    gap: 10px  
+
+}
+
+@media (max-width: 768px) {
+
+    .grid-section {
+
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(5, auto);
+        grid-template-areas: 
+        "highlight highlight"
+        "botL botL"
+        "midL midR"
+        "midL botR"
+        "top2 top2";
+        width: 100%;
+        gap: 0.625rem;
+    }
+
+    .highlight {
+
+        min-height: 500px;
+
+    }
+
+    .midL{
+
+        min-height: 370px;
+
+    }
+
+    .botL, .top2 {
+
+        min-height: 190px;
+
+    }
 }
